@@ -12,7 +12,7 @@ namespace Ehitusmaterjalidekauplus.Controllers
         // GET: Kauplus
         public ActionResult Index()
         {
-            return View(db.Kauplus.ToList());
+            return View();
         }
     }
 }

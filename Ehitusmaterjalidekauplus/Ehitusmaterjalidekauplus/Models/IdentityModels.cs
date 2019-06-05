@@ -29,5 +29,7 @@ namespace Ehitusmaterjalidekauplus.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Ehitusmaterjalidekauplus.Models.Tooded> Toodeds { get; set; }
     }
 }

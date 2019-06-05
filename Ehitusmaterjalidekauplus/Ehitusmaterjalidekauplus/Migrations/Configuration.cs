@@ -9,7 +9,7 @@ namespace Ehitusmaterjalidekauplus.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Ehitusmaterjalidekauplus.Models.ApplicationDbContext context)
